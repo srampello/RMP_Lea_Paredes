@@ -1,0 +1,22 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Compilaciones
+.pio/
+build/
+dist/
+*.elf
+*.hex
+*.o
+
+# Configuración privada
+.env
+.env.*
+!.env.example

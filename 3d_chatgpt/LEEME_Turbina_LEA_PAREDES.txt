@@ -1,0 +1,52 @@
+TURBINA LEA_PAREDES - MOTOR CORELESS 8520
+============================================================
+
+DISEÑO
+- Tipo: impulsor centrifugo con disco posterior cerrado.
+- Diametro exterior: 30,00 mm.
+- Altura total: 6,30 mm.
+- Disco posterior: 1,50 mm.
+- Aspas: 6, curvadas hacia atras.
+- Altura de aspas: 4,80 mm.
+- Espesor nominal de aspas: 1,00 mm.
+- Cubo central: 6,50 mm de diametro.
+- Orificio del eje: 1,54 mm nominal, ciego y de 5,15 mm de profundidad.
+
+ARCHIVOS STL
+- CCW: giro antihorario visto desde el lado del motor/disco plano.
+- CW: giro horario visto desde el lado del motor/disco plano.
+
+La turbina aspira aire axialmente por el orificio inferior y lo expulsa hacia
+afuera por los laterales. Debe girar en el sentido indicado por el nombre del
+STL, siempre observado desde el lado del motor. Si gira al reves tambien mueve
+aire, pero pierde presion y eficiencia porque las aspas trabajan adelantadas.
+
+MONTAJE
+- Dejar 0,70 mm entre las puntas de las aspas y la base.
+- Dejar 0,50 mm de holgura lateral minima con la carcasa.
+- Introducir el eje sin que haga tope forzado en el fondo del orificio.
+- Verificar a mano que no exista roce antes de energizar el motor.
+
+IMPRESION RECOMENDADA
+- Material: PETG de buena calidad; para uso definitivo se recomienda un
+  material mas rigido y resistente a altas RPM si se dispone de el.
+- Orientacion: cara plana del disco apoyada en la cama; aspas hacia arriba.
+- Altura de capa: 0,12 mm.
+- Boquilla: 0,40 mm o menor.
+- Perimetros: 4.
+- Relleno: 100 %.
+- Compensacion de pie de elefante activada.
+- No utilizar soportes.
+
+AJUSTE DEL EJE
+Los orificios pequeños suelen imprimirse por debajo de la medida nominal.
+Imprimir primero, medir el resultado y corregir el parametro
+shaft_hole_diameter del archivo SCAD si fuera necesario. No forzar el eje:
+una grieta en el cubo puede provocar una rotura a alta velocidad.
+
+SEGURIDAD
+Un motor 8520 puede alcanzar decenas de miles de RPM. Utilizar siempre una
+carcasa completa alrededor de la turbina. Las primeras pruebas deben hacerse
+con PWM bajo, aumentando gradualmente, sin sostener el conjunto en la mano y
+manteniendo protegidos los ojos y el rostro. Si se observa vibracion, detener
+el motor y corregir el balance antes de continuar.
