@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LEA_PAREDES")(type "KiCad")(uri "${KIPRJMOD}/LEA_PAREDES.pretty")(options "")(descr "Huellas locales de LEA_PAREDES"))
+)
