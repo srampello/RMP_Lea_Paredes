@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LEA_PAREDES")(type "KiCad")(uri "${KIPRJMOD}/LEA_PAREDES.kicad_sym")(options "")(descr "Simbolos locales de modulos y componentes de LEA_PAREDES"))
+)
