@@ -1,5 +1,7 @@
 # RMP LEA_PAREDES
 
+> **Ficha técnica:** [LEA_PAREDES en RMP Robotics](https://srampello.github.io/RMP/robots/lea-paredes/) · Todos los robots en [srampello.github.io/RMP](https://srampello.github.io/RMP/)
+
 Repositorio principal de **LEA_PAREDES**, robot micromouse de competición desarrollado por RMP Robotics.
 
 <p align="center">
@@ -7,7 +9,7 @@ Repositorio principal de **LEA_PAREDES**, robot micromouse de competición desar
 </p>
 
 <p align="center">
-  <a href="https://rmp-robotics.santii-rampe.chatgpt.site/robots/lea-paredes">Ver página del robot</a>
+  <a href="https://srampello.github.io/RMP/robots/lea-paredes/">Ver ficha técnica del robot</a>
 </p>
 
 ## Objetivo
@@ -60,7 +62,7 @@ El diseño mecánico se encuentra en evolución. La primera base impresa integra
 - [Diseño mecánico y CAD](cad/README.md)
 - [Lista de materiales](bom/README.md)
 - [Changelog](CHANGELOG.md)
-- [Página pública de RMP Robotics](https://rmp-robotics.santii-rampe.chatgpt.site/robots/lea-paredes)
+- [Ficha técnica en RMP Robotics](https://srampello.github.io/RMP/robots/lea-paredes/)
 
 ## Estructura
 
